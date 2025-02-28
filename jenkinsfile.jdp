@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull'){
             steps {
-                git branch: 'main', url: 'https://github.com/guru6910/Frontend-CRM.git'
+                git branch: 'main', url: 'https://github.com/aarti215/FRONTEND-CRM.git'
             }
         }
         stage('build'){
